@@ -44,3 +44,12 @@
     }
   }
 }
+
+ul.actions {
+  flex-direction: row-reverse;
+
+  a {
+    color: white;
+    opacity: 0.85;
+  }
+}
