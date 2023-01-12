@@ -1,3 +1,14 @@
+// Breakpoints.
+
+//xlarge: (1281px, 1800px),
+//large: (981px, 1280px),
+//medium: (737px, 980px),
+//small: (481px, 736px),
+//xsmall: (null, 480px),
+
+
+$text-colour: #eee;
+
 /* Work Item */
 .custom-work-item {
   margin: 0 0 2em 0;
@@ -18,38 +29,120 @@
   }
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333333;
-  display: flex;
-  justify-content: center;
+#project-achievements {
+  h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+  }
+}
 
-  a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-bottom: none;
+section {
+  h2 {
+    display: flex;
+    flex-direction: row;
+  }
 
-    :hover {
-      background-color: #ddd;
-      color: black;
+  .design-summary-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+  }
+
+  .design-summary-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .design-summary-title {
+      font-size: 1.25em;
+      color: $text-colour;
+      padding: 0.25em;
     }
 
-    .active {
-      background-color: #49bf9d;
-      color: white;
+    .design-summary-content {
+      font-size: 1.75em;
+      padding: 0.25em;
     }
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    min-width: 6em;
   }
 }
 
 ul.actions {
   flex-direction: row-reverse;
+}
+
+body {
+  background-color: #212930;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-colour;
+}
+
+p {
+  color: rgba($text-colour, 0.8);
+}
+
+@media screen and (min-width: 981px) {
+  header {
+    top: 57px;
+    z-index: 10;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  header {
+    top: 57px;
+    z-index: 1;
+  }
+}
+
+.button {
+  color: $text-colour;
+
+  &:hover {
+    border-color: #B3C0CB;
+    color: #B3C0CB !important;
+  }
+}
+
+#main {
+  padding-top: 6em;
+}
+
+.topnav {
+  background-color: rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(6px);
+  overflow: hidden;
+  border-bottom: solid 1px;
 
   a {
-    color: white;
-    opacity: 0.85;
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: none;
+
+    &:hover {
+      color: #B3C0CB !important;
+      font-weight: bold;
+    }
   }
+
+  //a.active {
+  //  background-color: red;
+  //  color: white;
+  //}
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
 }

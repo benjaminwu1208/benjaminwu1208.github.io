@@ -1075,6 +1075,7 @@ input[type="button"],
   background-color: _palette(accent2, bg);
   background-attachment: scroll, scroll;
   background-image: url('images/overlay.png'), url('../../images/bg.jpg');
+  //background-image: url('images/overlay.png'), url('../../images/fulls/macquarie-university-inner.png');
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
   background-size: auto, 150%;
@@ -1563,12 +1564,12 @@ body.is-touch {
   }
 
   /* Header */
-
+  //Commented
   #header {
-    padding: ($size-header-pad * 1.5) $size-header-pad;
+    //padding: ($size-header-pad * 1.5) $size-header-pad;
 
     h1 {
-      font-size: 1.35em;
+      //font-size: 1.35em;
     }
   }
 
