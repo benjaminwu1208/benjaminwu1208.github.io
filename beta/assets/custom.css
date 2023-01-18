@@ -1,0 +1,26 @@
+#image3-3l {
+    width: 100%;
+}
+
+#figma-embed {
+    height: 80vh;
+    width: 100%;
+}
+
+.project-highlight-number {
+    color: rgb(166, 25, 46);
+    font-size: 4rem;
+}
+
+.project-highlight-icon {
+    max-height: 5rem;
+}
+
+.card-title {
+    margin-top: 2rem;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
