@@ -42,7 +42,9 @@ blockquote {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30vw;
+    max-height: 40vh;
+    padding-bottom: 10vh;
+    width: auto;
 }
 
 /*NEW STUFF*//*https://codepen.io/simoberny/pen/pJZJQY*/
