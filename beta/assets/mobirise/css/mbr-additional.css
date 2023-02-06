@@ -625,14 +625,14 @@ blockquote {
 }
 .jq-selectbox .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:after,
-.jq-number__spin.plus:after {
+.jq-number__spin.float-default:after {
   transition: 0.4s;
   border-top-color: #353535;
   border-bottom-color: #353535;
 }
 .jq-selectbox:hover .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:hover:after,
-.jq-number__spin.plus:hover:after {
+.jq-number__spin.float-default:hover:after {
   border-top-color: #a6192e;
   border-bottom-color: #a6192e;
 }
