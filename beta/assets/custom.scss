@@ -124,6 +124,21 @@ video {
     //background: rgba(166, 25, 46, 0.6);
     background: rgba(0, 0, 0, 0.8);
   }
+
+  .item-content {
+    font-size: 24px;
+    font-family: 'Roboto', serif;
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+  }
 }
 
 .first-item {
@@ -158,22 +173,71 @@ video {
   animation-fill-mode: forwards;
 }
 
-.item-content {
-  font-size: 24px;
-  font-family: 'Roboto', serif;
-  color: white;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0;
-  top: 0;
-  bottom: 0;
-  text-align: center;
-  line-height: 40px;
-  font-weight: 700;
+
+@keyframes edit-in {
+  from {
+    opacity: 0;
+    transform: rotateZ(-70deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateZ(0deg);
+  }
 }
 
-@keyframes edit-in { from {opacity: 0;transform: rotateZ(-70deg);} to {opacity: 1;transform: rotateZ(0deg);} }  @keyframes edit-out { from {opacity: 1;transform: rotateZ(0deg);} to {opacity: 0;transform: rotateZ(-70deg);} }  @keyframes fade-in { from {opacity: 1;transform: rotateZ(0deg);} to {opacity: 0;transform: rotateZ(180deg);} }  @keyframes fade-out { from {opacity: 0;transform: rotateZ(180deg);} to {opacity: 1;transform: rotateZ(0deg);} }  @keyframes bounce-nds { from {opacity: 0;} to {opacity: 1;transform: scale(1);} }  @keyframes bounce-out-nds { from {opacity: 1;transform: scale(1);} to {opacity: 0;transform: scale(0);} }
+@keyframes edit-out {
+  from {
+    opacity: 1;
+    transform: rotateZ(0deg);
+  }
+  to {
+    opacity: 0;
+    transform: rotateZ(-70deg);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 1;
+    transform: rotateZ(0deg);
+  }
+  to {
+    opacity: 0;
+    transform: rotateZ(180deg);
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 0;
+    transform: rotateZ(180deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes bounce-nds {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce-out-nds {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0);
+  }
+}
 
 #material-floating {
   position: fixed;
