@@ -37,12 +37,17 @@ video {
 .footer .soc-item i {
   color: white; }
 
-.cid-ttMS7WZ0MS .item {
-  cursor: auto; }
-.cid-ttMS7WZ0MS .item-wrapper {
-  border-width: 1px;
-  border-color: rgba(68, 68, 68, 0.6);
-  border-style: solid; }
+.cid-tsKtUnEAbe {
+  background-image: none; }
+
+.cid-ttMS7WZ0MS {
+  background-image: none; }
+  .cid-ttMS7WZ0MS .item {
+    cursor: auto; }
+  .cid-ttMS7WZ0MS .item-wrapper {
+    border-width: 1px;
+    border-color: rgba(68, 68, 68, 0.6);
+    border-style: solid; }
 
 .cid-tsfJEb9NQk .item {
   cursor: auto; }
