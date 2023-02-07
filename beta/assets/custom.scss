@@ -301,6 +301,12 @@ video {
     .item {
       cursor: auto;
     }
+
+    .item-wrapper {
+      border-style: solid;
+      border-width: 1px;
+      border-color: rgba(0, 0, 0, 0.4);
+    }
   }
 }
 

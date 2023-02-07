@@ -208,6 +208,10 @@ video {
   background-image: none; }
 .index .cid-tsfJEb9NQk .item {
   cursor: auto; }
+.index .cid-tsfJEb9NQk .item-wrapper {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.4); }
 
 .footer .soc-item i {
   color: white; }
