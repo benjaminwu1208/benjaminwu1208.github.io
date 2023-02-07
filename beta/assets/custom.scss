@@ -1,30 +1,38 @@
 blockquote {
-  background-color: #fafafa; }
+  background-color: #fafafa;
+}
 
 video {
   width: 100%;
-  height: auto; }
+  height: auto;
+}
 
 #figma-embed {
   height: 80vh;
-  width: 100%; }
+  width: 100%;
+}
 
 .project-highlight-number {
-  color: #a6192e;
-  font-size: 4rem; }
+  color: rgb(166, 25, 46);
+  font-size: 4rem;
+}
 
 .project-highlight-icon {
-  max-height: 5rem; }
+  max-height: 5rem;
+}
 
 .card-title {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+}
 
 .mbr-section-subtitle {
-  font-style: italic; }
+  font-style: italic;
+}
 
 .card-wrapper {
   padding-bottom: 16px;
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+}
 
 .hero-logo-center {
   display: block;
@@ -32,17 +40,24 @@ video {
   margin-right: auto;
   max-height: 40vh;
   padding-bottom: 10vh;
-  width: auto; }
+  width: auto;
+}
 
 .footer .soc-item i {
-  color: white; }
+  color: white;
+}
 
-.cid-ttMS7WZ0MS .item {
-  cursor: auto; }
-.cid-ttMS7WZ0MS .item-wrapper {
-  border-width: 1px;
-  border-color: rgba(68, 68, 68, 0.6);
-  border-style: solid; }
+.cid-ttMS7WZ0MS {
+  .item {
+    cursor: auto;
+  }
+
+  .item-wrapper {
+    border-width: 1px;
+    border-color: rgba(68, 68, 68, 0.6);
+    border-style: solid;
+  }
+}
 
 /*NEW STUFF START*/
 /*https://codepen.io/simoberny/pen/pJZJQY*/
@@ -59,7 +74,8 @@ video {
   display: flex;
   align-content: center;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .float-default {
   color: white;
@@ -71,13 +87,12 @@ video {
   right: 0;
   text-align: center;
   padding: 0;
-  margin: 16px;
-  /*line-height: 55px;*/
-  /*font-size: 20px;*/
+  margin: 16px; /*line-height: 55px;*//*font-size: 20px;*/
   font-family: 'Roboto', serif;
   font-weight: 300;
   animation: fade-out 0.3s;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+}
 
 .edit {
   position: absolute;
@@ -93,7 +108,8 @@ video {
   transform: rotateZ(-70deg);
   transition: all 0.3s;
   animation: edit-out 0.3s;
-  max-width: 24px; }
+  max-width: 24px;
+}
 
 .floating-button-items {
   width: 40px;
@@ -102,37 +118,45 @@ video {
   position: fixed;
   z-index: 300;
   transform: scale(0);
-  cursor: pointer; }
-  .floating-button-items:hover {
-    background: rgba(0, 0, 0, 0.8); }
+  cursor: pointer;
+
+  &:hover {
+    //background: rgba(166, 25, 46, 0.6);
+    background: rgba(0, 0, 0, 0.8);
+  }
+}
 
 .first-item {
   background: #A6192E;
   right: 38px;
   bottom: 300px;
   animation: bounce-out-nds 0.25s linear;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards;
+}
 
 .second-item {
   background: #A6192E;
   right: 38px;
   bottom: 240px;
   animation: bounce-out-nds 0.2s linear;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards;
+}
 
 .third-item {
   background: #A6192E;
   right: 38px;
   bottom: 180px;
   animation: bounce-out-nds 0.15s linear;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards;
+}
 
 .forth-item {
   background: #A6192E;
   right: 38px;
   bottom: 120px;
   animation: bounce-out-nds 0.1s linear;
-  animation-fill-mode: forwards; }
+  animation-fill-mode: forwards;
+}
 
 .item-content {
   font-size: 24px;
@@ -146,77 +170,59 @@ video {
   bottom: 0;
   text-align: center;
   line-height: 40px;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
-@keyframes edit-in {
-  from {
-    opacity: 0;
-    transform: rotateZ(-70deg); }
-  to {
-    opacity: 1;
-    transform: rotateZ(0deg); } }
-@keyframes edit-out {
-  from {
-    opacity: 1;
-    transform: rotateZ(0deg); }
-  to {
-    opacity: 0;
-    transform: rotateZ(-70deg); } }
-@keyframes fade-in {
-  from {
-    opacity: 1;
-    transform: rotateZ(0deg); }
-  to {
-    opacity: 0;
-    transform: rotateZ(180deg); } }
-@keyframes fade-out {
-  from {
-    opacity: 0;
-    transform: rotateZ(180deg); }
-  to {
-    opacity: 1;
-    transform: rotateZ(0deg); } }
-@keyframes bounce-nds {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1;
-    transform: scale(1); } }
-@keyframes bounce-out-nds {
-  from {
-    opacity: 1;
-    transform: scale(1); }
-  to {
-    opacity: 0;
-    transform: scale(0); } }
+@keyframes edit-in { from {opacity: 0;transform: rotateZ(-70deg);} to {opacity: 1;transform: rotateZ(0deg);} }  @keyframes edit-out { from {opacity: 1;transform: rotateZ(0deg);} to {opacity: 0;transform: rotateZ(-70deg);} }  @keyframes fade-in { from {opacity: 1;transform: rotateZ(0deg);} to {opacity: 0;transform: rotateZ(180deg);} }  @keyframes fade-out { from {opacity: 0;transform: rotateZ(180deg);} to {opacity: 1;transform: rotateZ(0deg);} }  @keyframes bounce-nds { from {opacity: 0;} to {opacity: 1;transform: scale(1);} }  @keyframes bounce-out-nds { from {opacity: 1;transform: scale(1);} to {opacity: 0;transform: scale(0);} }
+
 #material-floating {
   position: fixed;
   width: 70px;
   height: 70px;
   bottom: 30px;
   right: 30px;
-  z-index: 50; }
-  #material-floating:hover {
+  z-index: 50;
+
+  &:hover {
     height: 400px;
-    width: 90px;
-    /*padding: 30px;*/ }
-  #material-floating:hover .float-default {
+    width: 90px; /*padding: 30px;*/
+  }
+
+  &:hover .float-default {
     animation: fade-in 0.15s linear;
-    animation-fill-mode: forwards; }
-  #material-floating:hover .edit {
+    animation-fill-mode: forwards;
+  }
+
+  &:hover .edit {
     animation: edit-in 0.2s;
     animation-delay: 0.1s;
-    animation-fill-mode: forwards; }
-  #material-floating:hover .floating-button-items {
+    animation-fill-mode: forwards;
+  }
+
+  &:hover .floating-button-items {
     animation: bounce-nds 0.1s linear;
-    animation-fill-mode: forwards; }
-  #material-floating:hover .first-item {
-    animation-delay: 0.25s; }
-  #material-floating:hover .second-item {
-    animation-delay: 0.2s; }
-  #material-floating:hover .third-item {
-    animation-delay: 0.15s; }
-  #material-floating:hover .forth-item {
-    animation-delay: 0.1s; }
+    animation-fill-mode: forwards;
+  }
+
+  &:hover .first-item {
+    animation-delay: 0.25s;
+  }
+
+  &:hover .second-item {
+    animation-delay: 0.2s;
+  }
+
+  &:hover .third-item {
+    animation-delay: 0.15s;
+  }
+
+  &:hover .forth-item {
+    animation-delay: 0.1s;
+  }
+
+  //&:hover .nd5 {
+  //  animation-delay: 0.2s;
+  //}
+}
 
 /*NEW STUFF END*/
