@@ -1140,7 +1140,8 @@ a {
 
 .cid-tsKtUnEAbe {
     padding-top: 6rem;
-    padding-bottom: 6rem; /*background-image: url("../../../assets/images/background1.jpg");*/
+    padding-bottom: 6rem;
+    background-image: url("../../../assets/images/background1.jpg");
 }
 
 .cid-tsKtUnEAbe .mbr-fallback-image.disabled {
@@ -1883,7 +1884,7 @@ a {
 .cid-ttMS7WZ0MS {
     padding-top: 6rem;
     padding-bottom: 6rem;
-    /*background-image: url("../../../assets/images/background3.jpg");*/
+    background-image: url("../../../assets/images/background3.jpg");
 }
 
 .cid-ttMS7WZ0MS .mbr-overlay {
