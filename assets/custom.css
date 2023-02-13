@@ -235,3 +235,18 @@ video {
 
 .footer .soc-item i {
   color: white; }
+
+.nav-item {
+  display: flex;
+  align-items: center; }
+  .nav-item .cv-btn {
+    background-color: black;
+    border-radius: 30px;
+    color: white !important;
+    min-height: 40px;
+    min-width: 120px; }
+    .nav-item .cv-btn:hover {
+      background-color: white;
+      border-radius: 30px;
+      outline-style: solid;
+      outline-width: 1pt; }
