@@ -15,10 +15,11 @@ body .nav-item {
     min-height: 40px;
     min-width: 120px; }
     body .nav-item .cv-btn:hover {
-      background-color: white;
-      border-radius: 30px;
-      outline-style: solid;
-      outline-width: 1pt; }
+      background-color: white !important;
+      border-radius: 30px !important;
+      outline-style: solid !important;
+      outline-width: 1pt !important;
+      color: black !important; }
 body .figma-embed {
   height: 80vh;
   width: 100%; }
@@ -471,3 +472,6 @@ body .figma-embed {
   border-color: rgba(0, 0, 0, 0.5); }
 .contact div.image-wrapper {
   margin-right: 3rem; }
+
+.ui .cid-tsKtUnEAbe {
+  background-image: none; }

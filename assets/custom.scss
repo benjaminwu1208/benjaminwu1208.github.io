@@ -25,10 +25,11 @@ body {
       min-width: 120px;
 
       &:hover {
-        background-color: white;
-        border-radius: 30px;
-        outline-style: solid;
-        outline-width: 1pt;
+        background-color: white !important;
+        border-radius: 30px !important;
+        outline-style: solid !important;
+        outline-width: 1pt !important;
+        color: black !important;
       }
     }
   }
@@ -701,5 +702,12 @@ body {
 
   div.image-wrapper {
     margin-right: 3rem;
+  }
+}
+
+//UI page CSS
+.ui {
+  .cid-tsKtUnEAbe {
+    background-image: none;
   }
 }
