@@ -42,6 +42,21 @@ body {
 
 //Macquarie University CSS
 .mq {
+
+  .linkedin-embed {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background-color: #ffffff;
+
+    iframe {
+      min-height: 50vh;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      border-width: 1px;
+    }
+  }
+
   .project-highlight-number {
     color: rgb(166, 25, 46);
     font-size: 4rem;
