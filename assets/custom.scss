@@ -757,15 +757,24 @@ body {
 
 //UI page CSS
 .ui {
+  section {
+    padding: 4rem 0;
+  }
+
   .header {
     background-image: none;
   }
 
-  a {
-    color: black;
+  .image-wrapper {
+    margin: 4rem 0;
   }
 
-  .image-wrapper{
-    margin: 4rem 0;
+  .cid-tw2xmhNEOn {
+    color: #fafafa;
+    background-color: #353535;
+
+    a {
+      color: #fafafa;
+    }
   }
 }

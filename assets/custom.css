@@ -503,9 +503,14 @@ body i {
 .contact div.image-wrapper {
   margin-right: 3rem; }
 
+.ui section {
+  padding: 4rem 0; }
 .ui .header {
   background-image: none; }
-.ui a {
-  color: black; }
 .ui .image-wrapper {
   margin: 4rem 0; }
+.ui .cid-tw2xmhNEOn {
+  color: #fafafa;
+  background-color: #353535; }
+  .ui .cid-tw2xmhNEOn a {
+    color: #fafafa; }
