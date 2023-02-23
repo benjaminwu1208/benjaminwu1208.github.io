@@ -38,6 +38,10 @@ body {
     height: 80vh;
     width: 100%;
   }
+
+  i {
+    font-style: italic;
+  }
 }
 
 //Macquarie University CSS
@@ -339,6 +343,18 @@ body {
 .gt {
   color: #fafafa;
 
+  #competitor {
+    align-items: center;
+  }
+
+  .highlight {
+    display: inline;
+    padding: .15rem 0;
+    background: #FFB81C;
+    color: #ffffff;
+    box-shadow: .5em 0 0 #FFB81C, -.5em 0 0 #FFB81C;
+  }
+
   .cid-ttb2QpX9tJ {
     background-image: none;
     background-color: #000000;
@@ -348,8 +364,26 @@ body {
     color: #fafafa;
   }
 
-  .cid-ttAxQGSi5X, .cid-tsTbrSpAmN, .cid-tsTbrSpAmN .card-wrapper, .cid-tsTe1yDwpP, .cid-tsTe4FWAjR, .cid-tsTeu6ZcM0, .cid-ttMS7WZ0MS {
+  .cid-ttAxQGSi5X, .cid-tsTbrSpAmN, .cid-tsTbrSpAmN .card-wrapper, .cid-tsTe1yDwpP, .cid-tsTe4FWAjR, .cid-tsTeu6ZcM0, .cid-ttMS7WZ0MS, .cid-ttXn1IpW1V, .cid-tsTSRyQk7P, .cid-ttXyGOqq2l {
     background-color: #101820;
+  }
+
+  .cid-ttXyGOqq2l {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .cid-ttXkBkQcHO, .cid-ttXjQOqq2l {
+    color: #101820;
+    background-color: #FFB81C;
+
+    .display-2 {
+      color: #101820;
+    }
+
+    h3, h4 {
+      color: #101820;
+    }
   }
 
   .tools-used {
@@ -667,6 +701,7 @@ body {
 
 //Homepage CSS
 .index {
+
   .cid-tsKtUnEAbe {
     background-image: none;
   }
@@ -724,5 +759,13 @@ body {
 .ui {
   .header {
     background-image: none;
+  }
+
+  a {
+    color: black;
+  }
+
+  .image-wrapper{
+    margin: 4rem 0;
   }
 }

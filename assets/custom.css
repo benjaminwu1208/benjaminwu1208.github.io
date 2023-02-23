@@ -23,6 +23,8 @@ body .nav-item {
 body .figma-embed {
   height: 80vh;
   width: 100%; }
+body i {
+  font-style: italic; }
 
 .mq {
   /*NEW STUFF START*/
@@ -234,13 +236,31 @@ body .figma-embed {
   /*NEW STUFF START*/
   /*https://codepen.io/simoberny/pen/pJZJQY*/
   /*NEW STUFF END*/ }
+  .gt #competitor {
+    align-items: center; }
+  .gt .highlight {
+    display: inline;
+    padding: .15rem 0;
+    background: #FFB81C;
+    color: #ffffff;
+    box-shadow: .5em 0 0 #FFB81C, -.5em 0 0 #FFB81C; }
   .gt .cid-ttb2QpX9tJ {
     background-image: none;
     background-color: #000000; }
   .gt .display-2, .gt .display-5, .gt .cid-ttMS7WZ0MS .item-subtitle {
     color: #fafafa; }
-  .gt .cid-ttAxQGSi5X, .gt .cid-tsTbrSpAmN, .gt .cid-tsTbrSpAmN .card-wrapper, .gt .cid-tsTe1yDwpP, .gt .cid-tsTe4FWAjR, .gt .cid-tsTeu6ZcM0, .gt .cid-ttMS7WZ0MS {
+  .gt .cid-ttAxQGSi5X, .gt .cid-tsTbrSpAmN, .gt .cid-tsTbrSpAmN .card-wrapper, .gt .cid-tsTe1yDwpP, .gt .cid-tsTe4FWAjR, .gt .cid-tsTeu6ZcM0, .gt .cid-ttMS7WZ0MS, .gt .cid-ttXn1IpW1V, .gt .cid-tsTSRyQk7P, .gt .cid-ttXyGOqq2l {
     background-color: #101820; }
+  .gt .cid-ttXyGOqq2l {
+    padding-top: 4rem;
+    padding-bottom: 4rem; }
+  .gt .cid-ttXkBkQcHO, .gt .cid-ttXjQOqq2l {
+    color: #101820;
+    background-color: #FFB81C; }
+    .gt .cid-ttXkBkQcHO .display-2, .gt .cid-ttXjQOqq2l .display-2 {
+      color: #101820; }
+    .gt .cid-ttXkBkQcHO h3, .gt .cid-ttXkBkQcHO h4, .gt .cid-ttXjQOqq2l h3, .gt .cid-ttXjQOqq2l h4 {
+      color: #101820; }
   .gt .tools-used {
     display: flex;
     flex-direction: row;
@@ -485,3 +505,7 @@ body .figma-embed {
 
 .ui .header {
   background-image: none; }
+.ui a {
+  color: black; }
+.ui .image-wrapper {
+  margin: 4rem 0; }
