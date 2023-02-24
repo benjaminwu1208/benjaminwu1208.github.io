@@ -514,5 +514,7 @@ body i {
 .ui .cred•ui•inspiration {
   color: #fafafa;
   background-color: #12131C; }
+  .ui .cred•ui•inspiration .--fa-border-color {
+    color: red; }
   .ui .cred•ui•inspiration a {
     color: #fafafa; }
