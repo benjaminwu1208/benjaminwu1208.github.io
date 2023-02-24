@@ -508,7 +508,8 @@ body i {
 .ui .header {
   background-image: none; }
 .ui .image-wrapper {
-  margin: 4rem 0; }
+  margin-top: 2rem;
+  margin-bottom: 4rem; }
 .ui .cid-tw2xmhNEOn {
   color: #fafafa;
   background-color: #353535; }
