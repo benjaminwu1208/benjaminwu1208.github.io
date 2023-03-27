@@ -237,6 +237,22 @@ body i {
   /*NEW STUFF START*/
   /*https://codepen.io/simoberny/pen/pJZJQY*/
   /*NEW STUFF END*/ }
+  .gt .images-container div {
+    align-items: center; }
+  .gt .images-container img {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    max-width: 100%;
+    object-fit: cover; }
+  .gt a {
+    color: #FFFFFF; }
+    .gt a:hover {
+      color: #aaaaaa; }
+  .gt #GT-background {
+    min-height: 100vh; }
+  .gt #GT-stats {
+    margin: 8rem 0 2rem 0; }
   .gt #competitor {
     align-items: center; }
   .gt .highlight {
@@ -244,14 +260,16 @@ body i {
     padding: .15rem 0;
     background: #FFB81C;
     color: #ffffff;
-    box-shadow: .5em 0 0 #FFB81C, -.5em 0 0 #FFB81C; }
+    box-shadow: .2rem 0 0 #FFB81C, -.2rem 0 0 #FFB81C; }
   .gt .cid-ttb2QpX9tJ {
     background-image: none;
     background-color: #000000; }
   .gt .display-2, .gt .display-5, .gt .cid-ttMS7WZ0MS .item-subtitle {
     color: #fafafa; }
-  .gt .cid-ttAxQGSi5X, .gt .cid-tsTbrSpAmN, .gt .cid-tsTbrSpAmN .card-wrapper, .gt .cid-tsTe1yDwpP, .gt .cid-tsTe4FWAjR, .gt .cid-tsTeu6ZcM0, .gt .cid-ttMS7WZ0MS, .gt .cid-ttXn1IpW1V, .gt .cid-tsTSRyQk7P, .gt .cid-ttXyGOqq2l {
+  .gt .cid-ttAxQGSi5X, .gt .cid-tsTbrSpAmN, .gt .cid-tsTbrSpAmN .card-wrapper, .gt .cid-tsTe1yDwpP, .gt .cid-tsTe4FWAjR, .gt .cid-tsTeu6ZcM0, .gt .cid-ttMS7WZ0MS, .gt .cid-ttXn1IpW1V, .gt .cid-ttXyGOqq2l {
     background-color: #101820; }
+  .gt .cid-tsTSRyQk7P {
+    background-color: #FFB81C; }
   .gt .cid-ttXyGOqq2l {
     padding-top: 4rem;
     padding-bottom: 4rem; }
@@ -291,8 +309,6 @@ body i {
     max-height: 5rem; }
   .gt .card-title {
     margin-top: 2rem; }
-  .gt .mbr-section-subtitle {
-    font-style: italic; }
   .gt .card-wrapper {
     padding-bottom: 16px;
     margin-bottom: 16px; }
@@ -304,7 +320,8 @@ body i {
     padding-bottom: 10vh;
     width: auto; }
   .gt .cid-ttMS7WZ0MS {
-    background-image: none; }
+    background-image: none;
+    padding-top: 0; }
     .gt .cid-ttMS7WZ0MS .item {
       cursor: auto; }
     .gt .cid-ttMS7WZ0MS .item-wrapper {
@@ -476,7 +493,14 @@ body i {
       animation-delay: 0.1s; }
 
 .index .cid-tsKtUnEAbe {
-  background-image: none; }
+  background-image: none;
+  background-color: black;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  color: #fafafa; }
+  .index .cid-tsKtUnEAbe .btn.btn-white {
+    color: black !important; }
 .index .cid-tsfJEb9NQk .item {
   cursor: auto; }
 .index .cid-tsfJEb9NQk .item-wrapper {
