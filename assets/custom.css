@@ -1,6 +1,8 @@
 @charset "UTF-8";
 body blockquote {
   background-color: #fafafa; }
+body section {
+  padding: 0 2rem 0 2rem; }
 body video {
   width: 100%;
   height: auto; }
