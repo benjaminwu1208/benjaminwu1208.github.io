@@ -1,0 +1,1 @@
+$(document).ready(function () {let gtag = `<script async src="https://www.googletagmanager.com/gtag/js?id=G-GW1F72CEFY"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){ dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-GW1F72CEFY'); </script> `;$(gtag).insertBefore("body");/* console.log("done"); */});
