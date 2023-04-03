@@ -508,7 +508,8 @@ body i {
 .index .cid-tsfJEb9NQk .item-wrapper {
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.4); }
+  border-color: rgba(0, 0, 0, 0.05);
+  border-radius: 1.3rem; }
 
 .about a.text-primary {
   font-weight: bold;
