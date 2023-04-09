@@ -369,7 +369,7 @@ body {
     }
   }
 
-  #GT-background {
+  #GT-overview {
     min-height: 100vh;
   }
 
@@ -804,7 +804,8 @@ body {
 //UI page CSS
 .ui {
   section {
-    padding: 4rem 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .header {
@@ -826,6 +827,76 @@ body {
 
     a {
       color: #fafafa;
+    }
+  }
+}
+
+//Impulsive Buying
+.impulsive {
+
+  color: #8C745E;
+
+  .cid-ttb2QpX9tJ {
+    background-image: url("images/impulsive-buying/hero-img.webp");
+    background-color: black;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    color: black;
+
+    .btn.btn-white {
+      color: black !important;
+    }
+  }
+
+  .hero-section .mbr-section-title {
+    text-align: center;
+  }
+
+  .mbr-section-title {
+    text-align: left;
+  }
+
+  .heading {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.4);
+
+    h5 {
+      font-weight: bold;
+    }
+  }
+
+  .sub-title h5 {
+    line-height: 2rem;
+  }
+
+  .goal {
+    .card-deck {
+      display: flex;
+      flex-direction: row;
+
+      .card {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-radius: 20px;
+        border: 1.125px solid #BFB1A4;
+        padding: 1.25rem;
+        margin: 0.15rem;
+
+        .card-body {
+          padding: 0.5rem;
+        }
+
+        .card-title {
+          font-weight: bold;
+        }
+
+        .card-text {
+          line-height: 1.5rem;
+          word-break: initial;
+        }
+      }
     }
   }
 }
