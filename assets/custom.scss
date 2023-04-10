@@ -880,101 +880,71 @@ body {
   }
 
   .survey {
-
-    .survey-box {
-      box-sizing: border-box;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      //padding: 2rem 4rem;
-      //gap: 1rem;
-      position: relative;
-      width: auto;
-      height: auto;
-      border: 1px solid #BFB1A4;
-      border-radius: 20px;
-
-      @include media-breakpoint-down(sm) {
-        min-width: 11rem;
-        max-width: 13rem;
-        height: 12rem;
-        margin-bottom: 2rem;
+    .card-row .col {
+      @include media-breakpoint-up(xs) {
+        padding: 0 12px 0 12px;
+        margin: 0 0 0.5rem 0;
       }
       @include media-breakpoint-up(sm) {
-        gap: 0.5rem;
-        min-width: 13rem;
-        max-width: 15rem;
-        height: 14rem;
-        margin-bottom: 2rem;
-      }
-      @include media-breakpoint-up(md) {
-        width: 20rem;
-        height: 14rem;
-        margin-bottom: 2rem;
+        padding: 0 12px 0 12px;
+        margin: 0 0 0.5rem 0;
       }
       @include media-breakpoint-up(lg) {
-        width: 26rem;
-        margin-bottom: 2rem;
-      }
-      @include media-breakpoint-up(xl) {
-        width: 20rem;
-        height: 14rem;
-        margin-bottom: 3rem;
-      }
-      @include media-breakpoint-up(xxl) {
-        width: 24rem;
-        margin-bottom: 4rem;
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        padding-right: calc(var(--bs-gutter-x) * .5);
       }
 
-      .survey-box-title {
-        /* 27 */
-        //width: 116px;
-        height: 126px;
-        //font-family: 'Plus Jakarta Sans';
-        font-style: normal;
-        font-weight: 500;
-        line-height: 126px; /* identical to box height */
-        text-align: center;
-        color: #8C745E; /* Inside auto layout */
-        flex: none;
-        order: 0;
-        flex-grow: 0;
+      .card {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-radius: 20px;
+        border: 1.125px solid #BFB1A4;
+        padding: 1.25rem;
+        margin: 0.4rem 0.8rem;
+        align-content: flex-start;
 
-        @include media-breakpoint-up(xs) {
-          font-size: 2rem;
-        }
         @include media-breakpoint-up(sm) {
-          font-size: 3rem;
+          align-content: normal;
+        }
+        @include media-breakpoint-up(md) {
+          min-height: 12rem;
+          align-content: normal;
         }
         @include media-breakpoint-up(lg) {
-          font-size: 4rem;
+          min-height: 10rem;
+          align-content: space-around;
         }
-        @include media-breakpoint-up(xl) {
-          font-size: 6rem;
-        }
-        @include media-breakpoint-up(xxl) {
-          font-size: 6rem;
-        }
-      }
 
-      .survey-box-subtitle {
-        //font-family: 'Plus Jakarta Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 25px;
-        text-align: center;
-        color: #8C745E; /* Inside auto layout */
-        flex: none;
-        order: 1;
-        flex-grow: 0;
+        .card-body {
+          display: flex;
+          flex-direction: column;
+          box-sizing: border-box;
+          padding: 0.5rem;
+          text-align: center;
+          gap: 1.5rem;
+        }
+
+        .card-title {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 2rem;
+
+          padding: 2rem 0 0 0;
+        }
+
+        .card-text {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1rem;
+
+          padding: 0.5rem 0 0 0;
+        }
       }
     }
   }
 
   .goal {
-
     .card-row .col {
       @include media-breakpoint-up(xs) {
         padding: 0 12px 0 12px;
@@ -998,7 +968,6 @@ body {
         padding: 1.25rem;
         margin: 0.15rem;
         align-content: flex-start;
-
         @include media-breakpoint-up(sm) {
           align-content: normal;
         }
