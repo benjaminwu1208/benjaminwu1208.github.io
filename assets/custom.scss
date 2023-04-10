@@ -896,13 +896,15 @@ body {
       border-radius: 20px;
 
       @include media-breakpoint-down(sm) {
-        width: 11rem;
+        min-width: 11rem;
+        max-width: 13rem;
         height: 12rem;
         margin-bottom: 2rem;
       }
       @include media-breakpoint-up(sm) {
         gap: 0.5rem;
-        width: 14rem;
+        min-width: 13rem;
+        max-width: 15rem;
         height: 14rem;
         margin-bottom: 2rem;
       }
