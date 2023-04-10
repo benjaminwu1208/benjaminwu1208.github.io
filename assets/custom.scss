@@ -875,6 +875,22 @@ body {
     }
   }
 
+  .insight {
+    color: #8C745E;
+    text-transform: uppercase;
+    font-weight: bold;
+    @include media-breakpoint-up(lg) {
+      padding-left: 16px;
+    }
+  }
+
+  .insight-text {
+    line-height: 1.5rem;
+    @include media-breakpoint-up(lg) {
+      padding-left: 16px;
+    }
+  }
+
   .sub-title h5 {
     line-height: 2rem;
   }
