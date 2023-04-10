@@ -880,6 +880,7 @@ body {
   }
 
   .survey {
+
     .card-row .col {
       @include media-breakpoint-up(xs) {
         padding: 0 12px 0 12px;
@@ -901,7 +902,8 @@ body {
         border-radius: 20px;
         border: 1.125px solid #BFB1A4;
         padding: 1.25rem;
-        margin: 0.4rem 0.8rem;
+        margin: 0 0.4rem 0.1rem 0;
+
         align-content: flex-start;
 
         @include media-breakpoint-up(sm) {
