@@ -946,16 +946,19 @@ body {
 
     .card-row .col {
       @include media-breakpoint-up(xs) {
-        padding: 0 12px 0 12px;
         margin: 0 0 0.5rem 0;
       }
       @include media-breakpoint-up(sm) {
         padding: 0 12px 0 12px;
-        margin: 0 0 0.5rem 0;
+        margin: 0 0 1.5rem 0;
       }
+      //@include media-breakpoint-up(md) {
+      //  margin: 0 0 1.5rem 0;
+      //}
       @include media-breakpoint-up(lg) {
         padding-left: calc(var(--bs-gutter-x) * .5);
         padding-right: calc(var(--bs-gutter-x) * .5);
+        margin: 0 0 0.4rem 0;
       }
 
       .card {
@@ -966,9 +969,10 @@ body {
         border: 1.125px solid #BFB1A4;
         padding: 1.25rem;
         margin: 0 0.4rem 0.1rem 0;
-
         align-content: flex-start;
-
+        @include media-breakpoint-up(xs) {
+          height: 20vh;
+        }
         @include media-breakpoint-up(sm) {
           align-content: normal;
         }
@@ -993,17 +997,34 @@ body {
         .card-title {
           font-style: normal;
           font-weight: 600;
-          font-size: 2rem;
-
           padding: 2rem 0 0 0;
+          @include media-breakpoint-up(xs) {
+            font-size: 1.5rem;
+          }
+          @include media-breakpoint-up(sm) {
+            font-size: 2rem;
+          }
+          @include media-breakpoint-up(md) {
+            font-size: 1.5rem;
+          }
+          @include media-breakpoint-up(lg) {
+            font-size: 2rem;
+          }
         }
 
         .card-text {
           font-style: normal;
           font-weight: 400;
-          font-size: 1rem;
-
           padding: 0.5rem 0 0 0;
+          @include media-breakpoint-up(xs) {
+            font-size: 0.85rem;
+          }
+          @include media-breakpoint-up(sm) {
+            font-size: 1rem;
+          }
+          @include media-breakpoint-up(lg) {
+            font-size: 1rem;
+          }
         }
       }
     }
