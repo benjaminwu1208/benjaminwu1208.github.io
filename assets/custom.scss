@@ -970,7 +970,7 @@ body {
         padding: 1.25rem;
         margin: 0 0.4rem 0.1rem 0;
         align-content: flex-start;
-        @include media-breakpoint-up(xs) {
+        @include media-breakpoint-down(sm) {
           height: 20vh;
         }
         @include media-breakpoint-up(sm) {
