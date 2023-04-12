@@ -1015,12 +1015,13 @@ body {
         .card-text {
           font-style: normal;
           font-weight: 400;
-          padding: 0.5rem 0 0 0;
           @include media-breakpoint-up(xs) {
             font-size: 0.85rem;
+            padding: 0.5rem 0 0.5rem 0;
           }
           @include media-breakpoint-up(sm) {
             font-size: 1rem;
+            padding: 0.5rem 0 0 0;
           }
           @include media-breakpoint-up(lg) {
             font-size: 1rem;
