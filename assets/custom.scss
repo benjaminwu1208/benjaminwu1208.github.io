@@ -842,8 +842,55 @@ body {
 
 //Impulsive Buying
 .impulsive {
-
   color: #8C745E;
+
+  @include media-breakpoint-down(sm) {
+    .justify-center-xs {
+      display: flex;
+      justify-content: center;
+    }
+    .mt-xs-1 {
+      margin-top: .25rem;
+    }
+    .mt-xs-2 {
+      margin-top: .5rem;
+    }
+    .mt-xs-3 {
+      margin-top: 1rem;
+    }
+    .mt-xs-4 {
+      margin-top: 1.5rem;
+    }
+    .mt-xs-5 {
+      margin-top: 3rem;
+    }
+  }
+
+  .competitive-analysis a {
+    padding-left: 0;
+  }
+
+  //Fancybox Carousel
+  #myCarousel {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  #myCarousel .f-carousel__slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  //End of Fancybox Carousel
+
+  .app-icon {
+    width: auto;
+  }
+
+  .app-screenshot {
+    width: auto;
+  }
 
   .cid-ttb2QpX9tJ {
     background-image: url("images/impulsive-buying/hero-img.webp");
