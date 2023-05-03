@@ -1,14 +1,29 @@
-//@import "../assets/scss/_functions.scss";
-//@import "../assets/scss/_variables.scss";
-//@import "../assets/scss/mixins/_breakpoints.scss";
-//@import "../assets/scss/bootstrap.scss";
-
 @import '../assets/scss/_functions.scss';
 @import '../assets/scss/_variables.scss';
 @import '../assets/scss/mixins/_breakpoints.scss';
 
 //Universial CSS
 body {
+  .mt-6 {
+    margin-top: 3.5rem;
+  }
+
+  .mt-7 {
+    margin-top: 4rem;
+  }
+
+  .mt-8 {
+    margin-top: 4.5rem;
+  }
+
+  .mt-9 {
+    margin-top: 5rem;
+  }
+
+  .mt-10 {
+    margin-top: 6rem;
+  }
+
   blockquote {
     background-color: #fafafa;
   }
@@ -843,6 +858,39 @@ body {
 //Impulsive Buying
 .impulsive {
   color: #8C745E;
+
+  .btn-primary {
+    background-color: #8C745E !important;
+    border-color: #8C745E !important;
+    color: #ffffff !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2) !important;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #5C4C3D !important;
+      border-color: #5C4C3D !important;
+      color: #ffffff !important;
+      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2) !important;
+    }
+  }
+
+  a {
+    color: #8C745E;
+    text-decoration: underline;
+
+    &:hover {
+      color: #5C4C3D !important;
+      font-weight: bold;
+    }
+  }
+
+  #final, #thanks {
+    background-color: rgba(191, 177, 164, 0.2);
+
+    h3, h5 {
+      text-align: center;
+    }
+  }
 
   #key-findings {
     background-color: #fafafa;
