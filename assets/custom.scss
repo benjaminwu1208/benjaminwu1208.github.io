@@ -883,13 +883,15 @@ body {
     }
   }
 
-  a {
-    color: #8C745E;
-    text-decoration: underline;
+  #thanks {
+    a {
+      color: #8C745E;
+      text-decoration: underline;
 
-    &:hover {
-      color: #5C4C3D !important;
-      font-weight: bold;
+      &:hover {
+        color: #5C4C3D !important;
+        font-weight: bold;
+      }
     }
   }
 
