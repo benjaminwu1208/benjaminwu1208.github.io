@@ -37,8 +37,26 @@ body {
     height: auto;
   }
 
-  .footer .soc-item i {
-    color: white;
+  .footer {
+    .social-list {
+      align-items: center
+    }
+
+    .soc-item {
+      .svg-white {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(313deg) brightness(106%) contrast(103%);
+      }
+
+      i {
+        color: white;
+      }
+
+      img {
+        color: white;
+        max-width: 24px;
+        max-height: 20px;
+      }
+    }
   }
 
   .nav-item {
