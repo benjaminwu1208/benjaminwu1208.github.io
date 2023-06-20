@@ -814,8 +814,17 @@ body {
     color: black !important;
   }
 
-  .cid-tvhboNfsMX {
-    background-color: #fff;
+  .cid-tvhboNfsMX, .cid-tvnI7ZsBZZ {
+    background-color: #fafafa;
+
+    a {
+      color: black;
+      text-decoration: underline;
+
+      img {
+        border-radius: .75rem;
+      }
+    }
   }
 }
 
